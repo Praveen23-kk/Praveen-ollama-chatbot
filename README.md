@@ -77,7 +77,7 @@ ollama pull llama3.2:1b
 To start the chatbot, run:
 
 ```bash
-python chatbot.py
+python main.py
 ```
 
 You’ll see:
