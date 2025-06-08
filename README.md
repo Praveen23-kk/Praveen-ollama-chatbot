@@ -35,6 +35,12 @@
 ````markdown
 📦 Installation
 
+**System Requirements:**
+- RAM: Minimum 4 GB (6–8 GB recommended)
+- OS: Windows, macOS, or Linux
+- Disk: At least 3 GB free for model and dependencies
+
+
 1. Clone the repository
 
 ```bash
