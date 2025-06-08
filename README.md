@@ -46,14 +46,14 @@ cd praveen-ai-chatbot
 
 ```bash
 # Create virtual environment
-python -m venv venv
+python -m venv chatbot
 
 # Activate it
 # Windows:
-venv\Scripts\activate
+chatbot\Scripts\activate
 
 # macOS/Linux:
-source venv/bin/activate
+source chatbot/bin/activate
 ```
 
 3. **Install required dependencies**
