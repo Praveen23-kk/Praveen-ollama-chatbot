@@ -42,3 +42,90 @@
 ```bash
 git clone https://github.com/yourusername/praveen-ai-chatbot.git
 cd praveen-ai-chatbot
+
+Create and activate a virtual environment (optional but recommended)
+
+bash
+Copy
+Edit
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+Install dependencies
+
+bash
+Copy
+Edit
+pip install langchain-community langchain-core
+Install and run Ollama
+
+Download Ollama from https://ollama.com/
+
+Pull the model:
+
+bash
+Copy
+Edit
+ollama pull llama3.2:1b
+▶️ Usage
+Run the chatbot:
+
+bash
+Copy
+Edit
+python chatbot.py
+You will see:
+
+rust
+Copy
+Edit
+Welcome to Praveen's AI chat BOT! type 'exit' to to leave
+You:
+Start typing your questions and interact with the bot. Type exit to quit.
+
+🧠 How It Works
+The chatbot uses a LangChain prompt template to pass the conversation history and user questions to the LLaMA model via Ollama, generating context-aware responses.
+
+🐞 Known Issues
+The current code has a bug:
+
+python
+Copy
+Edit
+context==f"\nUser:{user_input}\nAI:{result}"
+should be
+
+python
+Copy
+Edit
+context = f"\nUser:{user_input}\nAI:{result}"
+Context is only maintained during the current session; no persistent memory.
+
+Terminal-only interface; no web UI yet.
+
+📄 License
+This project is licensed under the MIT License.
+
+✍️ Author
+Developed by Praveen
+
+Feel free to open issues or contribute!
+
+yaml
+Copy
+Edit
+
+---
+
+### Notes:
+
+- Replace all instances of `yourusername` with your GitHub username.
+- If you don’t have a CI workflow, you can remove the Build Status badge line.
+- The license badge requires that you add an MIT `LICENSE` file.
+- You can add screenshots or demo GIFs below the heading by adding an image markdown line.
+
+---
+
+If you want me to generate a `.md` file or help set up badges or CI workflows, just ask!
