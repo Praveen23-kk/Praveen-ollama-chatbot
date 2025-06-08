@@ -146,20 +146,5 @@ Contributions are welcome! If you find issues or want to suggest improvements:
 
 ---
 
-## 📷 Optional: Add a Demo Image/GIF
-
-You can place a demo image or GIF like this in your repo and add the line:
-
-```markdown
-![Chatbot Demo](demo.gif)
-```
-
----
-
-Replace all instances of `yourusername` with your actual GitHub username before pushing this file. Let me know if you'd like me to auto-generate a `.md` file version or assist with uploading a project demo!
-
-```
-```
-
 
 
