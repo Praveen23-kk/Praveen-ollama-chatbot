@@ -31,7 +31,7 @@
 - Python 3.8+  
 - [LangChain](https://www.langchain.com/)  
 - [Ollama](https://ollama.com/)  
-- LLaMA 3.2 (1B parameters) model  
+- LLama 3.2 (1B parameters) model  
 
 ---
 
