@@ -12,7 +12,6 @@
   <a href="#"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
 </p>
 
-
 ---
 
 ## 🚀 Features
@@ -29,24 +28,33 @@
 - Python 3.8+  
 - [LangChain](https://www.langchain.com/)  
 - [Ollama](https://ollama.com/)  
-- LLama 3.2 (1B parameters) model  
+- LLaMA 3.2 (1B parameters) model  
 
 ---
-````markdown
-📦 Installation
 
-**System Requirements:**
-- RAM: Minimum 4 GB (6–8 GB recommended)
-- OS: Windows, macOS, or Linux
-- Disk: At least 3 GB free for model and dependencies
+## 🧰 System Requirements
 
+To run this chatbot smoothly on your local machine using the `llama3.2:1b` model via Ollama, ensure the following minimum specs:
+
+| Component      | Minimum           | Recommended      |
+|----------------|--------------------|------------------|
+| **RAM**        | 4 GB               | 6–8 GB           |
+| **CPU**        | Modern 64-bit      | Quad-core        |
+| **Disk Space** | ~3 GB (for model)  | 5+ GB            |
+| **OS**         | Windows/macOS/Linux | Latest stable version |
+
+> 💡 *Tip: More RAM enables faster inference and longer context handling with local models.*
+
+---
+
+## 📦 Installation
 
 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/praveen-ai-chatbot.git
 cd praveen-ai-chatbot
-````
+
 
 2. **Create and activate a virtual environment** (recommended)
 
