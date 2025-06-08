@@ -28,7 +28,7 @@
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
-  Python 3.8+ • LangChain • Ollama • LLaMA 3.2
+  Python 3.12 • LangChain • Ollama • LLaMA 3.2
 </p>
 
 ---
@@ -51,3 +51,6 @@ pip install langchain-community langchain-core
 
 # Setup Ollama model (install Ollama first: https://ollama.com/)
 ollama pull llama3.2:1b
+<h2 align="center">▶️ Usage</h2>
+python chatbot.py
+
