@@ -1,9 +1,9 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%A7%A0-Praveen's%20AI%20Chatbot-blueviolet?style=for-the-badge" alt="Praveen's AI Chatbot"/>
-</p>
+<h1 align="center">🧠 Praveen's AI Chatbot</h1>
 
 <p align="center">
-  <strong>A simple and powerful conversational AI built with <a href="https://www.langchain.com/">LangChain</a> and <a href="https://ollama.com/">Ollama</a> using the <code>llama3.2:1b</code> model.</strong>
+  <strong>A simple and powerful conversational AI built with 
+  <a href="https://www.langchain.com/">LangChain</a> and 
+  <a href="https://ollama.com/">Ollama</a> using the <code>llama3.2:1b</code> model.</strong>
 </p>
 
 <p align="center">
