@@ -102,7 +102,7 @@ Type your question and chat with the bot. Type `exit` to quit the session.
 ## 🐞 Known Issues
 
 * **Code fix:**
-  The following line in `chatbot.py` has a bug:
+  The following line in `main.py` has a bug:
 
   ```python
   context == f"\nUser:{user_input}\nAI:{result}"
