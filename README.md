@@ -1,19 +1,17 @@
 <p align="center">
-  <h1>🧠 Praveen's AI Chatbot</h1>
-  <p>A simple and powerful conversational AI built with <a href="https://www.langchain.com/">LangChain</a> and <a href="https://ollama.com/">Ollama</a> using the <code>llama3.2:1b</code> model.</p>
+  <img src="https://img.shields.io/badge/%F0%9F%A7%A0-Praveen's%20AI%20Chatbot-blueviolet?style=for-the-badge" alt="Praveen's AI Chatbot"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/praveen-ai-chatbot/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/praveen-ai-chatbot/ci.yml" alt="Build Status"/>
-  </a>
-  <a href="https://github.com/yourusername/praveen-ai-chatbot/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/praveen-ai-chatbot" alt="License"/>
-  </a>
-  <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python Version"/>
-  </a>
+  <strong>A simple and powerful conversational AI built with <a href="https://www.langchain.com/">LangChain</a> and <a href="https://ollama.com/">Ollama</a> using the <code>llama3.2:1b</code> model.</strong>
 </p>
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python Version"></a>
+</p>
+
 
 ---
 
